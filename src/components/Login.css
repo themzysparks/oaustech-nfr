@@ -1,0 +1,201 @@
+/* Overall page styling */
+body {
+  font-family: 'Roboto', sans-serif; /* Modern stylized font */
+  margin: 0;
+  padding: 0;
+  background: url('images/background.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.login-container {
+  width: 400px;
+  background: rgba(201, 199, 249, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: 'Poppins', sans-serif; /* Stylish form font */
+}
+
+/* Header styling */
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.school-logo {
+  width: 70px; /* Adjusted size */
+  height: 70px;
+  margin-right: 10px;
+}
+
+.school-name h1 {
+  font-size: 20px; /* Adjusted font size */
+  margin: 0;
+  font-weight: bold;
+  color: #96231c; /* Primary color */
+  font-family: 'Merriweather', serif;
+}
+
+.school-name h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+  font-family: 'Merriweather', serif;
+}
+
+.school-name h3 {
+  font-size: 14px; /* Smaller size for OKITIPUPA, ONDO STATE */
+  margin: 0;
+  color: #555;
+  font-family: 'Merriweather', serif;
+}
+
+/* Horizontal line styling */
+.divider-line {
+  height: 2px;
+  background: #96231c; /* Primary color */
+  margin: 10px auto;
+  width: 60%; /* Matching the footer line width */
+}
+
+/* Project title styling */
+.project-title {
+  font-size: 14px;
+  color: blue;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Form title styling */
+.form-title {
+  font-size: 21px; /* Increased size */
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #96231c; /* Primary color */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Form input styling */
+.login-form {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 5px;
+  width: 80%; /* Reduced width */
+  margin: 0 auto 15px; /* Center align */
+}
+
+.input-icon {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.login-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-input:focus {
+  border: 2px solid #96231c; /* Highlight on focus */
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Button styling */
+.login-button {
+  background: #96231c; /* Primary color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 150px;
+  margin: auto;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Bottom links styling */
+.login-links {
+  font-size: 12px;
+}
+
+.login-links .link {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Footer styling */
+.footer-line {
+  width: 60%; /* Adjusted to match divider-line */
+  height: 2px;
+  background: #96231c; /* Primary color */
+  margin: 20px auto;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #333;
+  font-style: italic; /* Italicized footer text */
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 0; /* Remove padding */
+  height: 40px; /* Set a fixed height for the container */
+  width: 80%; /* Centered and reduced width */
+  margin: 0 auto 15px; /* Center align */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.input-icon {
+  margin: 0 10px; /* Adjust spacing */
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.login-input {
+  flex: 1; /* Take remaining space */
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  height: 100%; /* Match the container height */
+  padding: 0 10px; /* Add horizontal padding */
+  box-sizing: border-box; /* Ensure padding doesn't affect dimensions */
+}
+
+.login-input:focus {
+  /*border: none; /* Prevent extra border on focus */
+  outline: none;
+}
